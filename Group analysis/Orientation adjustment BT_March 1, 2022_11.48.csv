@@ -1,0 +1,31 @@
+StartDate,EndDate,Status,Progress,Duration (in seconds),Finished,RecordedDate,ResponseId,DistributionChannel,UserLanguage,Q1,Q2,Q3,id
+Start Date,End Date,Response Type,Progress,Duration (in seconds),Finished,Recorded Date,Response ID,Distribution Channel,User Language,Did you notice anything unusual during the experiment?,Do you think the feedback is always accurate?,"If not accurate, how inaccurate do you think the feedback was?",id
+"{""ImportId"":""startDate"",""timeZone"":""America/Denver""}","{""ImportId"":""endDate"",""timeZone"":""America/Denver""}","{""ImportId"":""status""}","{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""recordedDate"",""timeZone"":""America/Denver""}","{""ImportId"":""_recordId""}","{""ImportId"":""distributionChannel""}","{""ImportId"":""userLanguage""}","{""ImportId"":""QID8""}","{""ImportId"":""QID10""}","{""ImportId"":""QID5_TEXT""}","{""ImportId"":""id""}"
+2022-02-09 07:24:25,2022-02-09 07:24:29,IP Address,100,4,True,2022-02-09 07:24:29,R_stXKSIjq6c6r93b,anonymous,EN-GB,,,,65368
+2022-02-09 15:44:46,2022-02-09 15:45:02,IP Address,100,15,True,2022-02-09 15:45:02,R_2uJy3e1XPhw95nV,anonymous,EN-GB,no,yes,,67003
+2022-02-09 16:22:28,2022-02-09 16:24:08,IP Address,100,99,True,2022-02-09 16:24:08,R_31Xgrugq9zO9b7O,anonymous,EN-GB,no,no,"I got the impression the number was arbitrary, and that the blue/white line image was identical each time.",67009
+2022-02-09 17:04:04,2022-02-09 17:04:16,IP Address,100,12,True,2022-02-09 17:04:16,R_272W6t86uRomp5a,anonymous,EN-GB,no,yes,,67273
+2022-02-10 03:48:00,2022-02-10 03:49:38,IP Address,100,97,True,2022-02-10 03:49:38,R_YbQ07Y5yZdm1y81,anonymous,EN-GB,no,no,it started with saying I was more accurate then said I was less accurate even though when I started Im sure I was worse,69511
+2022-02-10 04:10:11,2022-02-10 04:10:23,IP Address,100,11,True,2022-02-10 04:10:23,R_5o04sXxoBC8zWeZ,anonymous,EN-GB,no,yes,,69607
+2022-02-10 05:10:28,2022-02-10 05:11:09,IP Address,100,40,True,2022-02-10 05:11:09,R_dmWWAw4aWCYRwNX,anonymous,EN-GB,no,yes,,69388
+2022-02-10 07:30:06,2022-02-10 07:30:28,IP Address,100,22,True,2022-02-10 07:30:29,R_UQ58huod6AU2vRL,anonymous,EN-GB,no,no,"Sometimes people ",68968
+2022-02-11 04:16:42,2022-02-11 04:17:12,IP Address,100,29,True,2022-02-11 04:17:12,R_3g5ABfdg1CTrFjn,anonymous,EN-GB,no,yes,,67765
+2022-02-11 07:19:25,2022-02-11 07:19:46,IP Address,100,20,True,2022-02-11 07:19:46,R_2D8iO1YsCHtPfKg,anonymous,EN-GB,no,no,fairly inaccurate,67378
+2022-02-12 10:25:27,2022-02-12 10:25:56,IP Address,100,29,True,2022-02-12 10:25:56,R_1QMeEJncYydkN1V,anonymous,EN-GB,yes,no,"slightly better than i actually did ",69298
+2022-02-13 15:27:23,2022-02-13 15:28:37,IP Address,100,73,True,2022-02-13 15:28:37,R_bEPGNbeyTGkRggV,anonymous,EN-GB,yes,no,the correct answers began increasing,66961
+2022-02-14 09:18:59,2022-02-14 09:19:38,IP Address,100,38,True,2022-02-14 09:19:38,R_6VgjuTuvc5PaEp3,anonymous,EN-GB,no,yes,,69844
+2022-02-15 02:12:02,2022-02-15 02:14:29,IP Address,100,147,True,2022-02-15 02:14:30,R_SGEqXg4h4i9s2qJ,anonymous,EN-GB,no,no,probably about 30%,69775
+2022-02-15 03:27:41,2022-02-15 03:27:52,IP Address,100,11,True,2022-02-15 03:27:52,R_3ptFzI3JR9l5iOE,anonymous,EN-GB,no,yes,,68812
+2022-02-15 04:06:17,2022-02-15 04:06:54,IP Address,100,36,True,2022-02-15 04:06:54,R_1dNr9jBF5yw1KG8,anonymous,EN-GB,no,yes,,69094
+2022-02-15 06:42:17,2022-02-15 06:43:05,IP Address,100,47,True,2022-02-15 06:43:05,R_1PTXwh4fnPDsLhX,anonymous,EN-GB,no,no,not fully randomised but fairly inaccurate,69592
+2022-02-16 03:26:10,2022-02-16 03:27:07,IP Address,100,57,True,2022-02-16 03:27:08,R_r6Xw5JP16WXsw5H,anonymous,EN-GB,no,yes,,67684
+2022-02-16 08:56:05,2022-02-16 08:56:43,IP Address,100,38,True,2022-02-16 08:56:43,R_OjnfHwe2pQqnF4J,anonymous,EN-GB,no,no,15%,67567
+2022-02-16 08:59:15,2022-02-16 08:59:46,IP Address,100,31,True,2022-02-16 08:59:46,R_3iJxSKUMbpHwkrS,anonymous,EN-GB,no,yes,"I had no concept of accuracy ",67672
+2022-02-16 10:29:03,2022-02-16 10:29:14,IP Address,100,11,True,2022-02-16 10:29:15,R_129C8pDv5GXuIzM,anonymous,EN-GB,no,yes,,69478
+2022-02-16 14:40:08,2022-02-16 14:40:24,IP Address,100,16,True,2022-02-16 14:40:24,R_umMrabFpUmWjtpD,anonymous,EN-GB,no,yes,,68977
+2022-02-16 15:02:12,2022-02-16 15:02:25,IP Address,100,13,True,2022-02-16 15:02:26,R_306x0rHYPnGe5le,anonymous,EN-GB,yes,yes,,67360
+2022-02-17 06:29:30,2022-02-17 06:29:43,IP Address,100,12,True,2022-02-17 06:29:43,R_Pu2yWf2GLrg2yYh,anonymous,EN-GB,no,yes,,69622
+2022-02-17 10:08:48,2022-02-17 10:09:04,IP Address,100,15,True,2022-02-17 10:09:04,R_1JFNnA4QW0LlFXC,anonymous,EN-GB,no,yes,,67120
+2022-02-17 13:26:40,2022-02-17 13:27:10,IP Address,100,29,True,2022-02-17 13:27:10,R_1DtGNlMlC9gagmr,anonymous,EN-GB,no,yes,,68932
+2022-02-20 14:48:49,2022-02-20 14:49:33,IP Address,100,44,True,2022-02-20 14:49:34,R_1rPI8MD5OFFfqZW,anonymous,EN-GB,no,no,"score was the same a few times, but may not have been completely the same",69610
+2022-02-22 13:06:16,2022-02-22 13:07:18,IP Address,100,61,True,2022-02-22 13:07:18,R_2bPDPSjW7LbHDAT,anonymous,EN-GB,no,no,there were some blocks I thought I had done worse on than the feedback suggested,67072

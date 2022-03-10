@@ -1,4 +1,4 @@
-setwd("F:/Tools/Rworkspace/FYP-data-analyse/TT")
+setwd("F:/Tools/Rworkspace/FYP-data-analysis/TT")
 
 data <- read.csv("TT.csv", header = TRUE)
 

@@ -1,0 +1,46 @@
+StartDate,EndDate,Status,Progress,Duration (in seconds),Finished,RecordedDate,ResponseId,DistributionChannel,UserLanguage,Q1,Q2,Q3,id
+Start Date,End Date,Response Type,Progress,Duration (in seconds),Finished,Recorded Date,Response ID,Distribution Channel,User Language,Did you notice anything unusual during the experiment?,Do you think the feedback is always accurate?,"If not accurate, how inaccurate do you think the feedback was?",id
+"{""ImportId"":""startDate"",""timeZone"":""America/Denver""}","{""ImportId"":""endDate"",""timeZone"":""America/Denver""}","{""ImportId"":""status""}","{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""recordedDate"",""timeZone"":""America/Denver""}","{""ImportId"":""_recordId""}","{""ImportId"":""distributionChannel""}","{""ImportId"":""userLanguage""}","{""ImportId"":""QID8""}","{""ImportId"":""QID10""}","{""ImportId"":""QID5_TEXT""}","{""ImportId"":""id""}"
+2021-12-09 16:39:46,2021-12-09 16:39:51,Survey Preview,100,4,True,2021-12-09 16:39:52,R_3L5Sd2bCknEIT16,preview,EN-GB,,,,
+2021-12-09 16:48:33,2021-12-09 19:00:01,IP Address,100,7888,True,2021-12-09 19:00:01,R_1IbHuTFfdqrWbel,anonymous,EN-GB,,,,65368
+2021-12-10 02:39:34,2021-12-10 02:40:15,IP Address,100,41,True,2021-12-10 02:40:15,R_2TL9YQLwEokCwiO,anonymous,EN-GB,no,no,,67372
+2021-12-10 04:40:54,2021-12-10 04:42:05,IP Address,100,71,True,2021-12-10 04:42:05,R_3rZEv4QcxMv01n6,anonymous,EN-GB,no,yes,"i didnt notice any inaccuracies ",69277
+2021-12-10 04:42:24,2021-12-10 04:42:34,IP Address,100,10,True,2021-12-10 04:42:34,R_1LtetkGTImlejPH,anonymous,EN-GB,no,yes,,69277
+2021-12-10 06:30:00,2021-12-10 06:30:33,IP Address,100,33,True,2021-12-10 06:30:34,R_12eS3TSBhclppaH,anonymous,EN-GB,no,no,,69598
+2021-12-10 06:31:45,2021-12-10 06:32:01,Spam,100,15,True,2021-12-10 06:32:01,R_2QgO2bnKUAUfmIP,anonymous,EN-GB,no,no,,69598
+2021-12-10 06:32:22,2021-12-10 06:32:46,Spam,100,24,True,2021-12-10 06:32:47,R_0lHIydyKANm27Sh,anonymous,EN-GB,no,no,,69598
+2021-12-10 06:33:16,2021-12-10 06:33:52,IP Address,100,36,True,2021-12-10 06:33:53,R_2Bf9HvVrs83ASGv,anonymous,EN-GB,no,yes,"Slightly inaccurate, 10 degrees maybe",69598
+2021-12-10 06:45:12,2021-12-10 06:46:26,IP Address,100,74,True,2021-12-10 06:46:27,R_3KqKVnaNzswMapb,anonymous,EN-GB,yes,no,10 degrees,69598
+2021-12-10 06:47:54,2021-12-10 06:48:37,IP Address,100,42,True,2021-12-10 06:48:37,R_1Kf1x1VIU9ldrNt,anonymous,EN-GB,yes,no,10 degrees,69598
+2021-12-12 11:07:02,2021-12-12 11:07:34,IP Address,100,32,True,2021-12-12 11:07:34,R_3lrY080qeTnjcAG,anonymous,EN-GB,no,no,20%,69043
+2021-12-12 11:07:45,2021-12-12 11:08:01,IP Address,100,15,True,2021-12-12 11:08:02,R_PNYHQYxItaIcVpv,anonymous,EN-GB,yes,no,20%,69043
+2021-12-14 06:31:57,2021-12-14 06:32:23,IP Address,100,26,True,2021-12-14 06:32:24,R_216wiBiCCu1uKDJ,anonymous,EN-GB,yes,yes,,67297
+2021-12-16 11:20:20,2021-12-16 11:21:15,IP Address,100,55,True,2021-12-16 11:21:15,R_2TSqMBE1AkM2QJS,anonymous,EN-GB,no,yes,,67522
+2021-12-18 10:34:55,2021-12-18 10:35:00,Survey Preview,100,5,True,2021-12-18 10:35:01,R_WiiRmobCEaq3wDT,preview,EN-GB,,,,
+2021-12-18 10:36:11,2021-12-18 10:36:20,Survey Preview,100,8,True,2021-12-18 10:36:20,R_3O2oC2E20v78Ost,preview,EN-GB,,,,
+2021-12-19 10:09:02,2021-12-19 10:09:26,IP Address,100,24,True,2021-12-19 10:09:26,R_1QswGQ49TXmol1k,anonymous,EN-GB,yes,yes,,69793
+2022-02-03 12:55:03,2022-02-03 12:55:17,IP Address,100,13,True,2022-02-03 12:55:17,R_3EbVeUHNwU2ZrZU,anonymous,EN-GB,no,yes,,20787
+2022-02-03 13:23:59,2022-02-03 13:24:44,IP Address,100,45,True,2022-02-03 13:24:45,R_XYugSyAlFqWvpIZ,anonymous,EN-GB,no,yes,,69490
+2022-02-03 13:37:29,2022-02-03 13:38:28,IP Address,100,59,True,2022-02-03 13:38:28,R_2tm86zribPieReB,anonymous,EN-GB,,,,69613
+2022-02-05 02:51:07,2022-02-05 02:51:28,IP Address,100,20,True,2022-02-05 02:51:28,R_1OP5ORUDXAKogfe,anonymous,EN-GB,,,,69193
+2022-02-08 15:19:18,2022-02-08 15:20:09,IP Address,100,51,True,2022-02-08 15:20:09,R_ZfqC2BHxcxh5PTb,anonymous,EN-GB,no,yes,,67345
+2022-02-09 06:48:40,2022-02-09 06:48:45,IP Address,100,5,True,2022-02-09 06:48:46,R_1CDVKLd6cn5cRyr,anonymous,EN-GB,,,,65368
+2022-02-10 01:56:08,2022-02-10 01:56:19,IP Address,100,10,True,2022-02-10 01:56:19,R_3PdBYfn9clK0SLg,anonymous,EN-GB,yes,yes,,67417
+2022-02-10 03:35:22,2022-02-10 03:35:43,IP Address,100,21,True,2022-02-10 03:35:43,R_22LJN5ARv8rHyQV,anonymous,EN-GB,no,no,very,68965
+2022-02-10 04:05:43,2022-02-10 04:06:23,IP Address,100,39,True,2022-02-10 04:06:23,R_2cp8PQTbHgypnkR,anonymous,EN-GB,no,no,"just a little inaccurate ",68995
+2022-02-10 05:01:06,2022-02-10 05:01:26,IP Address,100,20,True,2022-02-10 05:01:27,R_2QxLjAli2ugr4CE,anonymous,EN-GB,no,yes,,69862
+2022-02-10 05:33:40,2022-02-10 05:34:17,IP Address,100,36,True,2022-02-10 05:34:17,R_3khvun7I53er30T,anonymous,EN-GB,yes,no,mildy,69850
+2022-02-10 05:35:11,2022-02-10 05:36:36,IP Address,100,85,True,2022-02-10 05:36:36,R_rrNCuk8N2QNb5Wp,anonymous,EN-GB,no,no,may have been confusion causing innacuracy,68875
+2022-02-10 06:13:52,2022-02-10 06:14:26,IP Address,100,34,True,2022-02-10 06:14:26,R_a2vYfWcs9RuMPHX,anonymous,EN-GB,no,yes,,67276
+2022-02-10 07:09:00,2022-02-10 07:09:20,IP Address,100,20,True,2022-02-10 07:09:20,R_2Pwhv8ClZ8y8RG6,anonymous,EN-GB,yes,yes,,69160
+2022-02-10 07:51:24,2022-02-10 07:51:37,IP Address,100,12,True,2022-02-10 07:51:37,R_2wN92eYJbjNCsfU,anonymous,EN-GB,no,yes,,69175
+2022-02-10 12:32:23,2022-02-10 12:33:59,IP Address,100,95,True,2022-02-10 12:33:59,R_SGLF40Ez0DT0KI1,anonymous,EN-GB,no,no,"a couple of times, I believe it was telling me I was more off than I believed I was",69199
+2022-02-10 14:21:28,2022-02-10 14:21:44,IP Address,100,16,True,2022-02-10 14:21:45,R_bskLYeCydkxTy3n,anonymous,EN-GB,no,yes,,69220
+2022-02-10 15:03:50,2022-02-10 15:04:06,IP Address,100,16,True,2022-02-10 15:04:06,R_3hfnNrR2AIVBOdH,anonymous,EN-GB,no,no,,69358
+2022-02-11 08:34:06,2022-02-11 08:35:06,IP Address,100,59,True,2022-02-11 08:35:06,R_2dRVdX3Tw4ZeAvZ,anonymous,EN-GB,no,yes,,67060
+2022-02-21 11:22:21,2022-02-21 11:23:34,IP Address,100,73,True,2022-02-21 11:23:34,R_2YSzITskmtYLuEp,anonymous,EN-GB,no,yes,,69058
+2022-02-22 05:50:23,2022-02-22 05:50:43,IP Address,100,20,True,2022-02-22 05:50:44,R_3nfsTMq9mJ9DhbS,anonymous,EN-GB,no,no,,69076
+2022-02-22 05:57:48,2022-02-22 05:58:08,IP Address,100,19,True,2022-02-22 05:58:08,R_3iXCsfwHsdZX0Ky,anonymous,EN-GB,no,yes,,69727
+2022-02-24 11:59:48,2022-02-24 12:01:18,IP Address,100,90,True,2022-02-24 12:01:18,R_21apVV6CjLhqpgC,anonymous,EN-GB,no,yes,,67486
+2022-02-24 13:59:14,2022-02-24 13:59:35,IP Address,100,20,True,2022-02-24 13:59:35,R_2SqwxfD8PgHhMAO,anonymous,EN-GB,no,no,,69853
+2022-02-25 11:39:21,2022-02-25 11:39:37,IP Address,100,15,True,2022-02-25 11:39:37,R_12LptIC8YIHUs3h,anonymous,EN-GB,no,yes,,67759

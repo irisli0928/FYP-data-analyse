@@ -1,0 +1,30 @@
+StartDate,EndDate,Status,Progress,Duration (in seconds),Finished,RecordedDate,ResponseId,DistributionChannel,UserLanguage,Q1,Q2,Q3,id
+Start Date,End Date,Response Type,Progress,Duration (in seconds),Finished,Recorded Date,Response ID,Distribution Channel,User Language,Did you notice anything unusual during the experiment?,Do you think the feedback is always accurate?,"If not accurate, how inaccurate do you think the feedback was?",id
+"{""ImportId"":""startDate"",""timeZone"":""America/Denver""}","{""ImportId"":""endDate"",""timeZone"":""America/Denver""}","{""ImportId"":""status""}","{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""recordedDate"",""timeZone"":""America/Denver""}","{""ImportId"":""_recordId""}","{""ImportId"":""distributionChannel""}","{""ImportId"":""userLanguage""}","{""ImportId"":""QID8""}","{""ImportId"":""QID10""}","{""ImportId"":""QID5_TEXT""}","{""ImportId"":""id""}"
+2022-02-09 07:31:26,2022-02-09 07:31:29,IP Address,100,3,True,2022-02-09 07:31:30,R_3G20b1TKi2WAn7H,anonymous,EN-GB,,,,65368
+2022-02-09 17:36:16,2022-02-09 17:36:28,IP Address,100,12,True,2022-02-09 17:36:28,R_3nGYGlbHgsEYcbZ,anonymous,EN-GB,no,yes,,69226
+2022-02-10 02:45:19,2022-02-10 02:45:36,IP Address,100,17,True,2022-02-10 02:45:36,R_2SuGYVQx3M0PE1o,anonymous,EN-GB,no,yes,,67729
+2022-02-10 03:19:59,2022-02-10 03:20:22,IP Address,100,22,True,2022-02-10 03:20:23,R_5db81XD6KNCMBrj,anonymous,EN-GB,no,yes,,69274
+2022-02-10 04:20:02,2022-02-10 04:21:29,IP Address,100,86,True,2022-02-10 04:21:29,R_vudxIxm7bXtWlSF,anonymous,EN-GB,no,no,"On a few trials the feedback was repetitive ",69238
+2022-02-10 04:52:55,2022-02-10 04:53:28,IP Address,100,33,True,2022-02-10 04:53:30,R_1IN40Wa7gxlKhR2,anonymous,EN-GB,no,yes,,68896
+2022-02-10 04:52:30,2022-02-10 04:54:34,IP Address,100,123,True,2022-02-10 04:54:34,R_R8ZIcv6jzgduUXD,anonymous,EN-GB,yes,no,during the first trial i did not quite catch all the images i had to focus on yet it was supposedly my most accurate trial. also it stated i had 2 rounds left but then it ended,68824
+2022-02-11 05:37:00,2022-02-11 05:37:40,IP Address,100,39,True,2022-02-11 05:37:40,R_1IlTzBWIEJ9DxNh,anonymous,EN-GB,no,yes,,67321
+2022-02-11 06:46:27,2022-02-11 06:47:02,IP Address,100,35,True,2022-02-11 06:47:02,R_1lrXIbr7Tzn5IfZ,anonymous,EN-GB,no,yes,,67243
+2022-02-11 11:53:17,2022-02-11 11:53:42,IP Address,100,24,True,2022-02-11 11:53:42,R_V4GgKiAEv37NpnP,anonymous,EN-GB,yes,yes,,69745
+2022-02-11 14:48:56,2022-02-11 14:49:27,IP Address,100,30,True,2022-02-11 14:49:27,R_2qwaHUpxznIJ0ry,anonymous,EN-GB,no,yes,,69169
+2022-02-12 11:05:22,2022-02-12 11:05:40,IP Address,100,18,True,2022-02-12 11:05:41,R_vOVpYRkZNqMYs1z,anonymous,EN-GB,yes,no,,67627
+2022-02-14 16:40:35,2022-02-14 16:41:26,IP Address,100,50,True,2022-02-14 16:41:26,R_3nNtq48lreoXgfF,anonymous,EN-GB,no,yes,,69637
+2022-02-14 16:58:28,2022-02-14 16:58:41,IP Address,100,13,True,2022-02-14 16:58:41,R_22Sb9frEoFxFDXo,anonymous,EN-GB,no,yes,,69241
+2022-02-15 03:09:19,2022-02-15 03:10:11,IP Address,100,52,True,2022-02-15 03:10:11,R_2tojXnE7bTOPcVb,anonymous,EN-GB,yes,no,5 points,68851
+2022-02-15 03:57:38,2022-02-15 03:57:58,IP Address,100,20,True,2022-02-15 03:57:59,R_1jdfl5QIZ2qm4RY,anonymous,EN-GB,no,no,i dont know,69247
+2022-02-15 05:18:43,2022-02-15 05:18:54,IP Address,100,10,True,2022-02-15 05:18:54,R_2PjwYxXJwZt0Gxv,anonymous,EN-GB,no,yes,,68803
+2022-02-15 05:24:38,2022-02-15 05:24:57,IP Address,100,19,True,2022-02-15 05:24:57,R_2g93J1RSNlsWLSh,anonymous,EN-GB,no,yes,,69859
+2022-02-16 05:11:54,2022-02-16 05:12:08,IP Address,100,13,True,2022-02-16 05:12:08,R_3PsJXPecJQnQWiW,anonymous,EN-GB,yes,yes,,70552
+2022-02-17 12:22:55,2022-02-17 12:23:11,IP Address,100,16,True,2022-02-17 12:23:12,R_1NkwwHwTCffW640,anonymous,EN-GB,no,yes,,69016
+2022-02-17 12:57:57,2022-02-17 12:58:14,IP Address,100,16,True,2022-02-17 12:58:14,R_20NCRi2WyOVYNC5,anonymous,EN-GB,no,yes,,69016
+2022-02-18 09:27:08,2022-02-18 09:27:23,IP Address,100,15,True,2022-02-18 09:27:23,R_pnN917ZdZNukQfv,anonymous,EN-GB,no,yes,,69670
+2022-02-18 19:03:05,2022-02-18 19:03:37,IP Address,100,32,True,2022-02-18 19:03:38,R_TinF5TQrgJleLgl,anonymous,EN-GB,no,yes,,67042
+2022-02-21 07:04:08,2022-02-21 07:04:52,IP Address,100,43,True,2022-02-21 07:04:53,R_1Iy2qX6QBPzqZZZ,anonymous,EN-GB,no,no,"Depended on the trail, I don't feel like I was doing as bad as it was indicating",69739
+2022-02-21 08:36:42,2022-02-21 08:37:08,IP Address,100,25,True,2022-02-21 08:37:08,R_x33tvVT6rXOwpiN,anonymous,EN-GB,no,yes,,67708
+2022-02-22 03:05:16,2022-02-22 03:06:03,IP Address,100,47,True,2022-02-22 03:06:03,R_SJBdolgo6gMbdtf,anonymous,EN-GB,no,no,fairly,68926
+2022-02-24 23:20:49,2022-02-24 23:21:26,IP Address,100,36,True,2022-02-24 23:21:26,R_1oj7wjMpXaGBu11,anonymous,EN-GB,no,no,average,67012

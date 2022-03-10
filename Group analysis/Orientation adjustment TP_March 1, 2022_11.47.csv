@@ -1,0 +1,22 @@
+StartDate,EndDate,Status,Progress,Duration (in seconds),Finished,RecordedDate,ResponseId,DistributionChannel,UserLanguage,Q1,Q2,Q3,id
+Start Date,End Date,Response Type,Progress,Duration (in seconds),Finished,Recorded Date,Response ID,Distribution Channel,User Language,Did you notice anything unusual during the experiment?,Do you think the feedback is always accurate?,"If not accurate, how inaccurate do you think the feedback was?",id
+"{""ImportId"":""startDate"",""timeZone"":""America/Denver""}","{""ImportId"":""endDate"",""timeZone"":""America/Denver""}","{""ImportId"":""status""}","{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""recordedDate"",""timeZone"":""America/Denver""}","{""ImportId"":""_recordId""}","{""ImportId"":""distributionChannel""}","{""ImportId"":""userLanguage""}","{""ImportId"":""QID8""}","{""ImportId"":""QID10""}","{""ImportId"":""QID5_TEXT""}","{""ImportId"":""id""}"
+2022-02-09 06:59:33,2022-02-09 06:59:36,IP Address,100,3,True,2022-02-09 06:59:37,R_2ff9CGwlpz7SNc4,anonymous,EN-GB,,,,65368
+2022-02-09 15:45:34,2022-02-09 15:45:51,IP Address,100,16,True,2022-02-09 15:45:51,R_10TbgukABh6e8Ih,anonymous,EN-GB,no,yes,,68872
+2022-02-10 01:59:38,2022-02-10 02:01:02,IP Address,100,83,True,2022-02-10 02:01:02,R_e8QoY2Ts2139lsd,anonymous,EN-GB,no,yes,,69202
+2022-02-10 02:46:19,2022-02-10 02:47:32,IP Address,100,73,True,2022-02-10 02:47:33,R_2e8oOO5YgW1Sxt5,anonymous,EN-GB,no,yes,,69712
+2022-02-10 04:09:21,2022-02-10 04:11:50,IP Address,100,148,True,2022-02-10 04:11:50,R_3fIfSxkxxlXMOi9,anonymous,EN-GB,no,no,"The feedback was slightly inaccurate. ",69352
+2022-02-10 05:12:27,2022-02-10 05:12:37,IP Address,100,9,True,2022-02-10 05:12:37,R_3Eo76n5zKgRyGZO,anonymous,EN-GB,no,no,,69013
+2022-02-10 06:07:43,2022-02-10 06:08:00,IP Address,100,17,True,2022-02-10 06:08:00,R_1GOpgcIe70f7jZR,anonymous,EN-GB,no,yes,,67507
+2022-02-10 07:10:23,2022-02-10 07:11:04,IP Address,100,41,True,2022-02-10 07:11:05,R_32LVQTLT38T4Bfi,anonymous,EN-GB,no,no,Im not sure how inaccurate but sometimes i felt i would be closer than i was,67519
+2022-02-10 09:53:46,2022-02-10 09:54:17,IP Address,100,30,True,2022-02-10 09:54:18,R_1NlcmZXf1BqPgdo,anonymous,EN-GB,no,no,quite inaccurate,69484
+2022-02-10 13:00:39,2022-02-10 13:01:00,IP Address,100,20,True,2022-02-10 13:01:00,R_D33tYbXwrlp3lLz,anonymous,EN-GB,no,yes,,67258
+2022-02-10 15:05:16,2022-02-10 15:06:01,IP Address,100,44,True,2022-02-10 15:06:01,R_2TuwcltWcpGgOHO,anonymous,EN-GB,no,yes,,69163
+2022-02-14 04:16:10,2022-02-14 04:24:10,IP Address,100,480,True,2022-02-14 04:24:10,R_26fF8U9joMOmADo,anonymous,EN-GB,no,no,"sometimes there are factors in which the researcher only tend to see things what they want for their research, there are personal bias too in some cases.",69661
+2022-02-15 05:28:35,2022-02-15 05:29:16,IP Address,100,40,True,2022-02-15 05:29:16,R_RzdZc5vnAvG9YDn,anonymous,EN-GB,no,no,"not very inaccurate but it may have been slightly off at times especially with the numbers ",70516
+2022-02-15 06:12:49,2022-02-15 06:13:06,IP Address,100,17,True,2022-02-15 06:13:06,R_3Dj9xmaoL8obP4s,anonymous,EN-GB,no,yes,,67045
+2022-02-17 12:05:37,2022-02-17 12:07:07,IP Address,100,89,True,2022-02-17 12:07:07,R_1DpMBtfNjpXCEDO,anonymous,EN-GB,no,no,Maybe around +-0.5,67051
+2022-02-19 12:50:05,2022-02-19 12:50:53,IP Address,100,48,True,2022-02-19 12:50:53,R_3qOw7XQpFlUILjl,anonymous,EN-GB,no,no,fairly accurate but sometimes felt like it was tricking me into thinking I got it wrong,67174
+2022-02-20 08:14:32,2022-02-20 08:14:57,IP Address,100,24,True,2022-02-20 08:14:57,R_1NmPnaqFoElOi8G,anonymous,EN-GB,yes,yes,,67609
+2022-02-23 08:07:55,2022-02-23 08:08:17,IP Address,100,21,True,2022-02-23 08:08:17,R_31TOc7LNkOyenaZ,anonymous,EN-GB,no,yes,,69571
+2022-02-24 13:08:41,2022-02-24 13:08:54,IP Address,100,13,True,2022-02-24 13:08:55,R_XgIgbnMAxB8ts3f,anonymous,EN-GB,no,yes,,67630
