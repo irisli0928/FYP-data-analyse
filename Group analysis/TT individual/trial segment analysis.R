@@ -1,8 +1,7 @@
-setwd("F:/Tools/Rworkspace/FYP-data-analysis/TT individual")
+setwd("F:/Tools/Rworkspace/FYP-data-analysis/Group analysis/TT individual")
 library("ggplot2")
 library("BayesFactor")
-
-data <- read.csv("trial segment analysis.csv", header = TRUE)
+data <- read.csv("individual data.csv", header = TRUE)
 
 plot(data$trials, data$rate)
 
