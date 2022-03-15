@@ -1,11 +1,11 @@
-setwd("F:/Tools/Rworkspace/FYP-data-analysis/Group analysis/TT individual")
+setwd("F:/Tools/Rworkspace/FYP-data-analysis/Group analysis/BP individual")
 library("ggplot2")
 library("BayesFactor")
 library("tseries")
 library("forecast")
 data <- read.csv("individual data.csv", header = TRUE)
 
-I <- data$X68965
+I <- data$X68851
 
 # ARIMA
 # stationarity and differencing
@@ -39,4 +39,3 @@ fit2
 qqnorm(fitA$residuals)
 qqline(fitA$residuals)
 Box.test(fitA$residuals, type="Ljung-Box")
-
