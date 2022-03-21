@@ -5,7 +5,7 @@ library("tseries")
 library("forecast")
 data <- read.csv("individual data.csv", header = TRUE)
 
-I <- data$X68965
+I <- data$X67060
 
 # ARIMA
 # stationarity and differencing

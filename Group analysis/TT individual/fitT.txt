@@ -1,0 +1,414 @@
+  |                                                                                                       |                                                                                               |   0%  |                                                                                                       |===============================================================================================| 100%
+[1] "X67060"
+
+Call:
+lm(formula = log(I) ~ trials, data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-4.7686 -0.7704  0.1140  1.0003  3.1573 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -0.991306   0.205696  -4.819 3.07e-06 ***
+trials      -0.007191   0.001971  -3.648 0.000347 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.374 on 178 degrees of freedom
+Multiple R-squared:  0.06957,	Adjusted R-squared:  0.06434 
+F-statistic: 13.31 on 1 and 178 DF,  p-value: 0.0003467
+
+            bf        error                     time         code
+trial 67.79161 4.117043e-05 Mon Mar 21 19:31:08 2022 33b436b049dd
+  |                                                                                                       |                                                                                               |   0%  |                                                                                                       |===============================================================================================| 100%
+[1] "X67267"
+
+Call:
+lm(formula = log(I) ~ trials, data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3.6048 -0.4160  0.2019  0.6291  1.7360 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -1.6192027  0.1488271 -10.880   <2e-16 ***
+trials       0.0009384  0.0014261   0.658    0.511    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.9942 on 178 degrees of freedom
+Multiple R-squared:  0.002426,	Adjusted R-squared:  -0.003178 
+F-statistic: 0.433 on 1 and 178 DF,  p-value: 0.5114
+
+             bf        error                     time         code
+trial 0.1976179 2.742205e-05 Mon Mar 21 19:31:08 2022 33b45e551490
+  |                                                                                                       |                                                                                               |   0%  |                                                                                                       |===============================================================================================| 100%
+[1] "X67417"
+
+Call:
+lm(formula = log(I) ~ trials, data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3.6622 -0.8389  0.2369  0.7168  2.8072 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -1.241640   0.187278  -6.630 3.87e-10 ***
+trials      -0.002055   0.001795  -1.145    0.254    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.251 on 178 degrees of freedom
+Multiple R-squared:  0.007313,	Adjusted R-squared:  0.001736 
+F-statistic: 1.311 on 1 and 178 DF,  p-value: 0.2537
+
+             bf        error                     time         code
+trial 0.2970979 3.131128e-05 Mon Mar 21 19:31:08 2022 33b4364a258b
+  |                                                                                                       |                                                                                               |   0%  |                                                                                                       |===============================================================================================| 100%
+[1] "X68965"
+
+Call:
+lm(formula = log(I) ~ trials, data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3.5873 -0.3915  0.1750  0.6023  1.6745 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -1.272028   0.141515  -8.989 3.61e-16 ***
+trials      -0.002732   0.001356  -2.014   0.0455 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.9454 on 178 degrees of freedom
+Multiple R-squared:  0.02229,	Adjusted R-squared:  0.01679 
+F-statistic: 4.057 on 1 and 178 DF,  p-value: 0.04549
+
+            bf       error                     time         code
+trial 1.053561 3.58183e-05 Mon Mar 21 19:31:08 2022 33b439151514
+  |                                                                                                       |                                                                                               |   0%  |                                                                                                       |===============================================================================================| 100%
+[1] "X68995"
+
+Call:
+lm(formula = log(I) ~ trials, data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-4.2853 -0.4204  0.1527  0.6112  2.5102 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -1.258142   0.165069  -7.622 1.43e-12 ***
+trials      -0.003588   0.001582  -2.268   0.0245 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.103 on 178 degrees of freedom
+Multiple R-squared:  0.02809,	Adjusted R-squared:  0.02263 
+F-statistic: 5.145 on 1 and 178 DF,  p-value: 0.02451
+
+           bf      error                     time         code
+trial 1.73327 3.4969e-05 Mon Mar 21 19:31:08 2022 33b4691e71a7
+  |                                                                                                       |                                                                                               |   0%  |                                                                                                       |===============================================================================================| 100%
+[1] "X69160"
+
+Call:
+lm(formula = log(I) ~ trials, data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-4.3870 -0.7537  0.1376  0.7914  2.8427 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -1.318768   0.176180  -7.485 3.17e-12 ***
+trials      -0.004108   0.001688  -2.433   0.0159 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.177 on 178 degrees of freedom
+Multiple R-squared:  0.03219,	Adjusted R-squared:  0.02676 
+F-statistic: 5.921 on 1 and 178 DF,  p-value: 0.01595
+
+            bf        error                     time         code
+trial 2.468571 3.373607e-05 Mon Mar 21 19:31:08 2022 33b44dee3268
+  |                                                                                                       |                                                                                               |   0%  |                                                                                                       |===============================================================================================| 100%
+[1] "X69175"
+
+Call:
+lm(formula = log(I) ~ trials, data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3.9053 -0.6430  0.2971  0.7814  2.8557 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -2.2751566  0.1815971 -12.529   <2e-16 ***
+trials       0.0008846  0.0017402   0.508    0.612    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.213 on 178 degrees of freedom
+Multiple R-squared:  0.00145,	Adjusted R-squared:  -0.00416 
+F-statistic: 0.2584 on 1 and 178 DF,  p-value: 0.6118
+
+             bf        error                     time         code
+trial 0.1822088 2.653241e-05 Mon Mar 21 19:31:08 2022 33b44c6541e1
+  |                                                                                                       |                                                                                               |   0%  |                                                                                                       |===============================================================================================| 100%
+[1] "X69850"
+
+Call:
+lm(formula = log(I) ~ trials, data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-5.1142 -0.6450  0.2406  0.7616  2.3453 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -1.422379   0.196620  -7.234 1.34e-11 ***
+trials       0.001806   0.001884   0.959    0.339    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.313 on 178 degrees of freedom
+Multiple R-squared:  0.005138,	Adjusted R-squared:  -0.0004513 
+F-statistic: 0.9193 on 1 and 178 DF,  p-value: 0.339
+
+             bf        error                     time        code
+trial 0.2477056 2.970277e-05 Mon Mar 21 19:31:08 2022 33b4398cbed
+  |                                                                                                       |                                                                                               |   0%  |                                                                                                       |===============================================================================================| 100%
+[1] "X69862"
+
+Call:
+lm(formula = log(I) ~ trials, data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-4.0664 -0.5607  0.1559  0.7797  2.6319 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -1.970532   0.169314 -11.638   <2e-16 ***
+trials      -0.002458   0.001622  -1.515    0.132    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.131 on 178 degrees of freedom
+Multiple R-squared:  0.01273,	Adjusted R-squared:  0.007182 
+F-statistic: 2.295 on 1 and 178 DF,  p-value: 0.1316
+
+             bf       error                     time        code
+trial 0.4682582 3.42862e-05 Mon Mar 21 19:31:08 2022 33b444e5fbf
+  |                                                                                                       |                                                                                               |   0%  |                                                                                                       |===============================================================================================| 100%
+[1] "X69199"
+
+Call:
+lm(formula = log(I) ~ trials, data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3.7693 -0.4661  0.1914  0.7788  2.2728 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -1.674234   0.164546 -10.175   <2e-16 ***
+trials      -0.003003   0.001577  -1.904   0.0585 .  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.099 on 178 degrees of freedom
+Multiple R-squared:  0.01997,	Adjusted R-squared:  0.01446 
+F-statistic: 3.627 on 1 and 178 DF,  p-value: 0.05846
+
+             bf        error                     time         code
+trial 0.8647213 3.581551e-05 Mon Mar 21 19:31:08 2022 33b47e723f67
+  |                                                                                                       |                                                                                               |   0%  |                                                                                                       |===============================================================================================| 100%
+[1] "X69220"
+
+Call:
+lm(formula = log(I) ~ trials, data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3.7150 -0.5702 -0.0870  0.8345  2.4054 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -1.8484030  0.1673615 -11.044   <2e-16 ***
+trials       0.0008872  0.0016038   0.553    0.581    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.118 on 178 degrees of freedom
+Multiple R-squared:  0.001716,	Adjusted R-squared:  -0.003892 
+F-statistic: 0.306 on 1 and 178 DF,  p-value: 0.5808
+
+             bf        error                     time       code
+trial 0.1862917 2.677866e-05 Mon Mar 21 19:31:08 2022 33b41dcd4a
+  |                                                                                                       |                                                                                               |   0%  |                                                                                                       |===============================================================================================| 100%
+[1] "X69358"
+
+Call:
+lm(formula = log(I) ~ trials, data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3.3670 -0.5162  0.1404  0.7116  2.5566 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -1.757807   0.163099 -10.778   <2e-16 ***
+trials      -0.003185   0.001563  -2.038   0.0431 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.09 on 178 degrees of freedom
+Multiple R-squared:  0.02279,	Adjusted R-squared:  0.0173 
+F-statistic: 4.152 on 1 and 178 DF,  p-value: 0.04307
+
+            bf        error                     time         code
+trial 1.100266 3.579136e-05 Mon Mar 21 19:31:08 2022 33b41af97c55
+  |                                                                                                       |                                                                                               |   0%  |                                                                                                       |===============================================================================================| 100%
+[1] "X69058"
+
+Call:
+lm(formula = log(I) ~ trials, data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3.9213 -0.6275  0.1850  0.7031  2.3839 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -1.629e+00  1.721e-01  -9.465   <2e-16 ***
+trials      -7.428e-06  1.649e-03  -0.005    0.996    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.15 on 178 degrees of freedom
+Multiple R-squared:  1.139e-07,	Adjusted R-squared:  -0.005618 
+F-statistic: 2.028e-05 on 1 and 178 DF,  p-value: 0.9964
+
+             bf        error                     time         code
+trial 0.1615598 2.515442e-05 Mon Mar 21 19:31:08 2022 33b46ee03207
+  |                                                                                                       |                                                                                               |   0%  |                                                                                                       |===============================================================================================| 100%
+[1] "X69076"
+
+Call:
+lm(formula = log(I) ~ trials, data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-4.7368 -0.5385  0.2407  0.7607  2.9381 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -1.5932747  0.1903059  -8.372 1.63e-14 ***
+trials      -0.0007639  0.0018236  -0.419    0.676    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.271 on 178 degrees of freedom
+Multiple R-squared:  0.0009849,	Adjusted R-squared:  -0.004628 
+F-statistic: 0.1755 on 1 and 178 DF,  p-value: 0.6758
+
+             bf        error                     time         code
+trial 0.1753113 2.609771e-05 Mon Mar 21 19:31:08 2022 33b44095617e
+  |                                                                                                       |                                                                                               |   0%  |                                                                                                       |===============================================================================================| 100%
+[1] "X69727"
+
+Call:
+lm(formula = log(I) ~ trials, data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3.9304 -0.7433  0.0313  0.6443  3.0186 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -1.400347   0.185079  -7.566 1.98e-12 ***
+trials      -0.003331   0.001774  -1.878    0.062 .  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.236 on 178 degrees of freedom
+Multiple R-squared:  0.01943,	Adjusted R-squared:  0.01393 
+F-statistic: 3.528 on 1 and 178 DF,  p-value: 0.06198
+
+             bf       error                     time         code
+trial 0.8262317 3.57846e-05 Mon Mar 21 19:31:09 2022 33b42dd52728
+  |                                                                                                       |                                                                                               |   0%  |                                                                                                       |===============================================================================================| 100%
+[1] "X69853"
+
+Call:
+lm(formula = log(I) ~ trials, data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-4.7146 -0.5647  0.2452  0.8076  2.1169 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -1.3629194  0.1712327  -7.959 1.96e-13 ***
+trials      -0.0006625  0.0016409  -0.404    0.687    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.144 on 178 degrees of freedom
+Multiple R-squared:  0.0009149,	Adjusted R-squared:  -0.004698 
+F-statistic: 0.163 on 1 and 178 DF,  p-value: 0.6869
+
+             bf        error                     time         code
+trial 0.1742956 2.603163e-05 Mon Mar 21 19:31:09 2022 33b4105b58cd
+  |                                                                                                       |                                                                                               |   0%  |                                                                                                       |===============================================================================================| 100%
+[1] "X67486"
+
+Call:
+lm(formula = log(I) ~ trials, data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-4.1281 -0.4643  0.1667  0.7644  3.0735 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -2.403182   0.175903 -13.662   <2e-16 ***
+trials       0.001209   0.001686   0.717    0.474    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.175 on 178 degrees of freedom
+Multiple R-squared:  0.002883,	Adjusted R-squared:  -0.002719 
+F-statistic: 0.5147 on 1 and 178 DF,  p-value: 0.4741
+
+             bf        error                     time         code
+trial 0.2052724 2.782635e-05 Mon Mar 21 19:31:09 2022 33b46efe2004
+  |                                                                                                       |                                                                                               |   0%  |                                                                                                       |===============================================================================================| 100%
+[1] "X67759"
+
+Call:
+lm(formula = log(I) ~ trials, data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3.7855 -0.5302  0.1131  0.6698  3.0737 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -2.0959940  0.1575526 -13.303   <2e-16 ***
+trials      -0.0008586  0.0015098  -0.569     0.57    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.052 on 178 degrees of freedom
+Multiple R-squared:  0.001814,	Adjusted R-squared:  -0.003794 
+F-statistic: 0.3234 on 1 and 178 DF,  p-value: 0.5703
+
+             bf       error                     time       code
+trial 0.1878026 2.68678e-05 Mon Mar 21 19:31:09 2022 33b4c0655e
