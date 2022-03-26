@@ -15,27 +15,22 @@ for(i in 5:ncol(data)) {
   logB <- log(block_average)
   data1 <- data.frame(trial, block, block_average, logI, logB)
   plot.trial <- ggplot(data,aes(trials, I)) + 
-    geom_line(colour="gray") +
     geom_point() +
     geom_smooth(method=lm, formula=y~log(x), colour="blue", fullrange=FALSE, level=.01) +
     geom_smooth(method=lm, formula=y~x, colour="black", fullrange=FALSE, level=.01) +
-    geom_smooth(method=loess, formula=y~log(x), colour="green", fullrange=FALSE, level=.01)
+    geom_smooth(method=loess, formula=y~log(x), colour="green", fullrange=FALSE, level=.01) +
+    ylim(0,1)
   plot.block <- ggplot(mapping = aes(block, block_average)) + 
     geom_point() + 
-    geom_smooth(method=lm, formula=y~log(x))
+    geom_line(colour="gray") +
+    geom_smooth(method=lm, formula=y~log(x), colour="blue", fullrange=FALSE, level=.01) +
+    geom_smooth(method=lm, formula=y~x, colour="black", fullrange=FALSE, level=.01) +
+    geom_smooth(method=loess, formula=y~log(x), colour="green", fullrange=FALSE, level=.01) +
+    ylim(0,1)
   plot.block
   ggsave(plot.trial, filename=paste("trial", ID, ".png",sep=""),device="png", path="F:/Tools/Rworkspace/FYP-data-analysis/Group analysis/TT individual/plot/trial")
   ggsave(plot.block, filename=paste("block", ID, ".png",sep=""),device="png", path="F:/Tools/Rworkspace/FYP-data-analysis/Group analysis/TT individual/plot/block")
 }
-  
 
-# logrithmic regression for trials and block average
-fitT <- lm(log(I) ~ trials, data=data)
-summary(fitT)
-bfT <- regressionBF(logI ~ trial, data=data1)
-extractBF(bfT)
-fitB <- lm(log(block_average) ~ block)
-summary(fitB)
-bfB <- regressionBF(logB ~ block, data=data1)
-extractBF(bfB)
+
 

@@ -1,0 +1,21 @@
+[1] "one-way ANOVA"
+            Df    Sum Sq   Mean Sq F value Pr(>F)
+group        4 0.0000049 1.237e-06   0.207  0.934
+Residuals   89 0.0005324 5.982e-06               
+[1] "two-way ANOVA"
+            Df    Sum Sq   Mean Sq F value Pr(>F)
+frequency    2 0.0000028 1.381e-06   0.233  0.793
+feedback     1 0.0000001 6.700e-08   0.011  0.916
+Residuals   90 0.0005345 5.939e-06               
+[1] "interaction"
+                   Df    Sum Sq   Mean Sq F value Pr(>F)
+frequency           2 0.0000028 1.381e-06   0.231  0.794
+feedback            1 0.0000001 6.700e-08   0.011  0.916
+frequency:feedback  1 0.0000021 2.118e-06   0.354  0.553
+Residuals          89 0.0005324 5.982e-06               
+[1] "blocking"
+            Df    Sum Sq   Mean Sq F value Pr(>F)
+frequency    2 0.0000028 1.381e-06   0.231  0.794
+feedback     1 0.0000001 6.700e-08   0.011  0.916
+group        1 0.0000021 2.118e-06   0.354  0.553
+Residuals   89 0.0005324 5.982e-06               
