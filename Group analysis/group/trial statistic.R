@@ -9,27 +9,42 @@ library("AICcmodavg")
 
 #ANOVA for learning rate
 dataANOVA <- read.csv("ANOVA.csv", header=TRUE)
-sink("ANOVA.txt")
 summary(dataANOVA)
 oneway <- aov(learningR ~ group, data = dataANOVA)
 summary(oneway)
-print("one-way ANOVA")
-print(summary(oneway))
 
 twoway <- aov(learningR ~ frequency + feedback, data = dataANOVA)
 summary(twoway)
-print("two-way ANOVA")
-print(summary(twoway))
+
 interaction <- aov(learningR ~ frequency*feedback, data = dataANOVA)
 summary(interaction)
-print("interaction")
-print(summary(interaction))
 
 blocking <- aov(learningR ~ frequency + feedback + group, data = dataANOVA)
 summary(blocking)
-print("blocking")
-print(summary(blocking))
-sink()
+#check homoscedasticity
+par(mfrow=c(2,2))
+plot(oneway)
+plot(twoway)
+plot(interaction)
+plot(blocking)
+par(mfrow=c(1,1))
+
+# sink("ANOVA.txt")
+# print("one-way ANOVA")
+# print(summary(oneway))
+# print("two-way ANOVA")
+# print(summary(twoway))
+# print("interaction")
+# print(summary(interaction))
+# print("blocking")
+# print(summary(blocking))
+# sink()
+
+#find the best fit
+model.set <- list(oneway, twoway, interaction, blocking)
+model.names <- c("oneway", "twoway", "interaction", "blocking")
+aictab(model.set, modnames = model.names)
+
 #tukey plot for learning rate
 tukey.plot.aov<-aov(learningR ~ frequency:feedback, data = dataANOVA)
 tukey.plot.test<-TukeyHSD(tukey.plot.aov)
@@ -40,6 +55,8 @@ dataANOVA %>%
   group_by(group) %>%
   get_summary_stats(learningR, type = "mean_sd")
 ggboxplot(dataANOVA, x = "group", y = "learningR")
+
+
 
 #ANOVA for intercept
 dataANOVAi <- read.csv("ANOVAi.csv", header=TRUE)
