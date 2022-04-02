@@ -29,16 +29,7 @@ plot(interaction)
 plot(blocking)
 par(mfrow=c(1,1))
 
-# sink("ANOVA.txt")
-# print("one-way ANOVA")
-# print(summary(oneway))
-# print("two-way ANOVA")
-# print(summary(twoway))
-# print("interaction")
-# print(summary(interaction))
-# print("blocking")
-# print(summary(blocking))
-# sink()
+
 
 #find the best fit
 model.set <- list(oneway, twoway, interaction, blocking)
@@ -56,40 +47,49 @@ dataANOVA %>%
   get_summary_stats(learningR, type = "mean_sd")
 ggboxplot(dataANOVA, x = "group", y = "learningR")
 
-
-
-#ANOVA for intercept
-dataANOVAi <- read.csv("ANOVAi.csv", header=TRUE)
-sink("ANOVAi.txt")
-# summary(dataANOVAi)
-oneway <- aov(intercept ~ group, data = dataANOVAi)
-# summary(oneway)
+sink("ANOVA.txt")
 print("one-way ANOVA")
 print(summary(oneway))
-
-twoway <- aov(intercept ~ frequency + feedback, data = dataANOVAi)
-# summary(twoway)
-print("two-way ANOVA")
-print(summary(twoway))
-interaction <- aov(intercept ~ frequency*feedback, data = dataANOVAi)
-# summary(interaction)
 print("interaction")
 print(summary(interaction))
-
-blocking <- aov(intercept ~ frequency + feedback + group, data = dataANOVAi)
-# summary(blocking)
-print("blocking")
-print(summary(blocking))
+print(dataANOVA %>%
+        group_by(group) %>%
+        get_summary_stats(learningR, type = "mean_sd"))
 sink()
 
-tukey.plot.aov<-aov(intercept ~ frequency:feedback, data = dataANOVAi)
-tukey.plot.test<-TukeyHSD(tukey.plot.aov)
-par(mar=c(4.1, 12, 4.1, 2.1))
-plot(tukey.plot.test, las = 1, mar = 0.1)
 
-
-dataANOVAi %>%
-  group_by(group) %>%
-  get_summary_stats(intercept, type = "mean_sd")
-ggboxplot(dataANOVAi, x = "group", y = "intercept")
-
+# #ANOVA for intercept
+# dataANOVAi <- read.csv("ANOVAi.csv", header=TRUE)
+# sink("ANOVAi.txt")
+# # summary(dataANOVAi)
+# oneway <- aov(intercept ~ group, data = dataANOVAi)
+# # summary(oneway)
+# print("one-way ANOVA")
+# print(summary(oneway))
+# 
+# twoway <- aov(intercept ~ frequency + feedback, data = dataANOVAi)
+# # summary(twoway)
+# print("two-way ANOVA")
+# print(summary(twoway))
+# interaction <- aov(intercept ~ frequency*feedback, data = dataANOVAi)
+# # summary(interaction)
+# print("interaction")
+# print(summary(interaction))
+# 
+# blocking <- aov(intercept ~ frequency + feedback + group, data = dataANOVAi)
+# # summary(blocking)
+# print("blocking")
+# print(summary(blocking))
+# sink()
+# 
+# tukey.plot.aov<-aov(intercept ~ frequency:feedback, data = dataANOVAi)
+# tukey.plot.test<-TukeyHSD(tukey.plot.aov)
+# par(mar=c(4.1, 12, 4.1, 2.1))
+# plot(tukey.plot.test, las = 1, mar = 0.1)
+# 
+# 
+# dataANOVAi %>%
+#   group_by(group) %>%
+#   get_summary_stats(intercept, type = "mean_sd")
+# ggboxplot(dataANOVAi, x = "group", y = "intercept")
+# 

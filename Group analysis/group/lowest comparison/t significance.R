@@ -1,4 +1,4 @@
-setwd("F:/Tools/Rworkspace/FYP-data-analysis/Group analysis/group")
+setwd("F:/Tools/Rworkspace/FYP-data-analysis/Group analysis/group/lowest comparison")
 library("ggplot2")
 library("BayesFactor")
 library("XLConnect")
@@ -8,52 +8,52 @@ library("broom")
 library("AICcmodavg")
 
 
-dataTTlog <- read.csv("TTtrialLog.csv", header = TRUE)
+dataTT <- read.csv("TTtResult.csv", header = TRUE)
 TTsignificant <-  vector()
-for (i in 2:ncol(dataTTlog)){
-  ID <- colnames(dataTTlog[i])
-  if (dataTTlog[6, i] <= 0.05) {
-    TTsignificant <- rbind(TTsignificant, dataTTlog[2, i])
+for (i in 1:nrow(dataTT)){
+  ID <- dataTT[i, 2]
+  if (dataTT[i, 6] >= 1) {
+    TTsignificant <- rbind(TTsignificant, dataTT[i, 3])
   }
 }
 r1 <- cbind(rep("TT", nrow(TTsignificant)), rep("Trial", nrow(TTsignificant)), rep("True", nrow(TTsignificant)))
 
-dataTPlog <- read.csv("TPtrialLog.csv", header = TRUE)
+dataTP <- read.csv("TPtResult.csv", header = TRUE)
 TPsignificant <- vector()
-for (i in 2:ncol(dataTPlog)){
-  ID <- colnames(dataTPlog[i])
-  if (dataTPlog[6, i] <= 0.05) {
-    TPsignificant <- rbind(TPsignificant, dataTPlog[2, i])
+for (i in 1:nrow(dataTP)){
+  ID <- dataTP[i, 2]
+  if (dataTP[i, 6] >= 1) {
+    TPsignificant <- rbind(TPsignificant, dataTP[i, 3])
   }
 }
 r2 <- cbind(rep("TP", nrow(TPsignificant)), rep("Trial", nrow(TPsignificant)), rep("Positive", nrow(TPsignificant)))
 
-dataBTlog <- read.csv("BTtrialLog.csv", header = TRUE)
+dataBT <- read.csv("BTtResult.csv", header = TRUE)
 BTsignificant <- vector()
-for (i in 2:ncol(dataBTlog)){
-  ID <- colnames(dataBTlog[i])
-  if (dataBTlog[6, i] <= 0.05) {
-    BTsignificant <- rbind(BTsignificant, dataBTlog[2, i])
+for (i in 1:nrow(dataBT)){
+  ID <- dataBT[i, 2]
+  if (dataBT[i, 6] >= 1) {
+    BTsignificant <- rbind(BTsignificant, dataBT[i, 3])
   }
 }
 r3 <- cbind(rep("BT", nrow(BTsignificant)), rep("Block", nrow(BTsignificant)), rep("True", nrow(BTsignificant)))
 
-dataBPlog <- read.csv("BPtrialLog.csv", header = TRUE)
+dataBP <- read.csv("BPtResult.csv", header = TRUE)
 BPsignificant <- vector()
-for (i in 2:ncol(dataBPlog)){
-  ID <- colnames(dataBPlog[i])
-  if (dataBPlog[6, i] <= 0.05) {
-    BPsignificant <- rbind(BPsignificant, dataBPlog[2, i])
+for (i in 1:nrow(dataBP)){
+  ID <- dataBP[i, 2]
+  if (dataBP[i, 6] >= 1) {
+    BPsignificant <- rbind(BPsignificant, dataBP[i, 3])
   }
 }
 r4 <- cbind(rep("BP", nrow(BPsignificant)), rep("Block", nrow(BPsignificant)), rep("Positive", nrow(BPsignificant)))
 
-dataNlog <- read.csv("NtrialLog.csv", header = TRUE)
+dataN <- read.csv("NtResult.csv", header = TRUE)
 Nsignificant <- vector()
-for (i in 2:ncol(dataNlog)){
-  ID <- colnames(dataNlog[i])
-  if (dataNlog[6, i] <= 0.05) {
-    Nsignificant <- rbind(Nsignificant, dataNlog[2, i])
+for (i in 1:nrow(dataN)){
+  ID <- dataN[i, 2]
+  if (dataN[i, 6] >= 1) {
+    Nsignificant <- rbind(Nsignificant, dataN[i, 3])
   }
 }
 r5 <- cbind(rep("N", nrow(Nsignificant)), rep("None", nrow(Nsignificant)), rep("None", nrow(Nsignificant)))
@@ -78,10 +78,4 @@ dataANOVA %>%
   get_summary_stats(learningR, type = "mean_sd")
 ggboxplot(dataANOVA, x = "group", y = "learningR")
 
-sink("sig.txt")
-print(summary(oneway))
-print(summary(interaction))
-print(dataANOVA %>%
-        group_by(group) %>%
-        get_summary_stats(learningR, type = "mean_sd"))
-sink()
+

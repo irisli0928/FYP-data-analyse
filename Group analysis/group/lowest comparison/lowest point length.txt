@@ -1,0 +1,16 @@
+            Df Sum Sq Mean Sq F value Pr(>F)
+group        4   29.5   7.371   0.616  0.653
+Residuals   84 1005.6  11.972               
+                  Df Sum Sq Mean Sq F value Pr(>F)
+frequency          2   17.4   8.716   0.728  0.486
+content            1   10.8  10.830   0.905  0.344
+frequency:content  1    1.2   1.223   0.102  0.750
+Residuals         84 1005.6  11.972               
+# A tibble: 5 x 5
+  group variable     n  mean    sd
+  <chr> <chr>    <dbl> <dbl> <dbl>
+1 BP    length      18  6.72  3.16
+2 BT    length      20  7.75  3.85
+3 N     length      18  6.89  3.61
+4 TP    length      15  6     2.39
+5 TT    length      18  6.5   3.85

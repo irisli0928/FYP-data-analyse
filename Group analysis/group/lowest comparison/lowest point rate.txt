@@ -1,0 +1,18 @@
+            Df   Sum Sq   Mean Sq F value Pr(>F)
+group        4 0.001818 0.0004545   1.352  0.257
+Residuals   84 0.028227 0.0003360               
+                  Df   Sum Sq   Mean Sq F value Pr(>F)  
+frequency          2 0.000520 0.0002599   0.774 0.4646  
+content            1 0.000995 0.0009945   2.960 0.0891 .
+frequency:content  1 0.000303 0.0003034   0.903 0.3447  
+Residuals         84 0.028227 0.0003360                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+# A tibble: 5 x 5
+  group variable     n   mean    sd
+  <chr> <chr>    <dbl>  <dbl> <dbl>
+1 BP    rate        18 -0.013 0.013
+2 BT    rate        20 -0.01  0.013
+3 N     rate        18 -0.013 0.017
+4 TP    rate        15 -0.014 0.013
+5 TT    rate        18 -0.002 0.03 

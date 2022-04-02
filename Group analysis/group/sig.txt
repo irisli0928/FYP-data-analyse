@@ -1,0 +1,18 @@
+            Df    Sum Sq  Mean Sq F value Pr(>F)
+group        4 2.412e-05 6.03e-06   2.185  0.132
+Residuals   12 3.311e-05 2.76e-06               
+                   Df    Sum Sq   Mean Sq F value Pr(>F)  
+frequency           2 1.724e-05 8.619e-06   3.123 0.0809 .
+feedback            1 2.740e-06 2.741e-06   0.993 0.3386  
+frequency:feedback  1 4.140e-06 4.143e-06   1.502 0.2439  
+Residuals          12 3.311e-05 2.760e-06                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+# A tibble: 5 x 5
+  group variable      n   mean     sd
+  <chr> <chr>     <dbl>  <dbl>  <dbl>
+1 BP    learningR     4 -0.007  0.003
+2 BT    learningR     4 -0.005  0    
+3 N     learningR     1 -0.005 NA    
+4 TP    learningR     3 -0.004  0.001
+5 TT    learningR     5 -0.004  0.002
