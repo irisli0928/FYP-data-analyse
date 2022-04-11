@@ -1,0 +1,24 @@
+# A tibble: 5 x 5
+  group variable     n  mean    sd
+  <chr> <chr>    <dbl> <dbl> <dbl>
+1 BP    meanP       17  11.9  6.85
+2 BT    meanP       20  11.2  3.62
+3 N     meanP       18  13.3  4.05
+4 TP    meanP       14  13.8  5.50
+5 TT    meanP       18  11.6  4.20
+# A tibble: 2 x 5
+  feedback variable     n  mean    sd
+  <chr>    <chr>    <dbl> <dbl> <dbl>
+1 with     meanP       69  12.0  5.08
+2 without  meanP       18  13.3  4.05
+            Df Sum Sq Mean Sq F value Pr(>F)
+group        4   87.5   21.87    0.91  0.462
+Residuals   82 1971.6   24.04               
+            Df Sum Sq Mean Sq F value Pr(>F)
+feedback     1   24.3   24.35   1.017  0.316
+Residuals   85 2034.8   23.94               
+                  Df Sum Sq Mean Sq F value Pr(>F)
+frequency          2   45.1   22.57   0.939  0.395
+content            1   32.1   32.10   1.335  0.251
+frequency:content  1   10.3   10.26   0.427  0.515
+Residuals         82 1971.6   24.04               
