@@ -95,7 +95,7 @@ dataANOVA <- read.csv("ANOVAmean.csv", header = TRUE)
 
 #avergae performance
 dataANOVA <- dataANOVA %>%
-  gather(key = "time", value = "error", before, after) %>%
+  gather(key = "time", value = "error", after, before) %>%
   convert_as_factor(group, time)
 
 dataANOVA %>%
@@ -127,6 +127,28 @@ dataANOVA %>%
   get_summary_stats(error, type = "mean_sd")
 ggboxplot(dataANOVA, x = "feedback", y = "error",
           color = "time", palette = "jco")
+
+ggplot(data = dataANOVA) +
+  geom_boxplot(mapping=aes(group, error, colour=factor(time, levels=c("before","after")))) +
+  theme(legend.position = "top", panel.background = element_rect(fill = "white", colour = "black")) +
+  scale_colour_manual(values=c("dodgerblue3", "goldenrod2"))
+
+ggplot(data = dataANOVA) +
+  geom_boxplot(mapping=aes(frequency, error, colour=factor(time, levels=c("before","after")))) +
+  theme(legend.position = "top", panel.background = element_rect(fill = "white", colour = "black")) +
+  scale_colour_manual(values=c("dodgerblue3", "goldenrod2"))
+
+ggplot(data = dataANOVA) +
+  geom_boxplot(mapping=aes(content, error, colour=factor(time, levels=c("before","after")))) +
+  theme(legend.position = "top", panel.background = element_rect(fill = "white", colour = "black")) +
+  scale_colour_manual(values=c("dodgerblue3", "goldenrod2"))
+
+ggplot(data = dataANOVA) +
+  geom_boxplot(mapping=aes(feedback, error, colour=factor(time, levels=c("before","after")))) +
+  theme(legend.position = "top", panel.background = element_rect(fill = "white", colour = "black")) +
+  scale_colour_manual(values=c("dodgerblue3", "goldenrod2"))
+
+
 sink("meanComparisonANOVA.txt")
 print(dataANOVA %>%
         group_by(group, time) %>%
@@ -150,7 +172,7 @@ write.csv(dataANOVA2, "ANOVA2.csv")
 dataANOVA2 <- read.csv("ANOVA2.csv", header = TRUE)
 
 data3 <- dataANOVA2 %>%
-  gather(key = "time", value = "sd", before, after) %>%
+  gather(key = "time", value = "sd", after, before) %>%
   convert_as_factor(group, time)
 data3 %>%
   group_by(group, time) %>%

@@ -58,6 +58,27 @@ dataANOVA %>%
 ggboxplot(dataANOVA, x = "group", y = "error",
           color = "time", palette = "jco")
 
+ggplot(data = dataANOVA) +
+  geom_boxplot(mapping=aes(group, error, colour=factor(time, levels=c("before","after")))) +
+  theme(legend.position = "top", panel.background = element_rect(fill = "white", colour = "black")) +
+  scale_colour_manual(values=c("dodgerblue3", "goldenrod2"))
+
+ggplot(data = dataANOVA) +
+  geom_boxplot(mapping=aes(frequency, error, colour=factor(time, levels=c("before","after")))) +
+  theme(legend.position = "top", panel.background = element_rect(fill = "white", colour = "black")) +
+  scale_colour_manual(values=c("dodgerblue3", "goldenrod2"))
+
+ggplot(data = dataANOVA) +
+  geom_boxplot(mapping=aes(content, error, colour=factor(time, levels=c("before","after")))) +
+  theme(legend.position = "top", panel.background = element_rect(fill = "white", colour = "black")) +
+  scale_colour_manual(values=c("dodgerblue3", "goldenrod2"))
+
+ggplot(data = dataANOVA) +
+  geom_boxplot(mapping=aes(feedback, error, colour=factor(time, levels=c("before","after")))) +
+  theme(legend.position = "top", panel.background = element_rect(fill = "white", colour = "black")) +
+  scale_colour_manual(values=c("dodgerblue3", "goldenrod2"))
+
+
 interaction2 <- aov(error ~ group*time, data = dataANOVA)
 summary(interaction2)
 interaction3 <- aov(error ~ frequency*time, data = dataANOVA)

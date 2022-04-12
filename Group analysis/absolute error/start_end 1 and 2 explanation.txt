@@ -1,0 +1,2 @@
+1 is the row mean, compress all participants performance parallelly
+2 is the column mean, get the mean performance of each participant and then group them together
