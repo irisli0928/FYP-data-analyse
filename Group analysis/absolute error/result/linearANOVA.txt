@@ -1,0 +1,36 @@
+# A tibble: 5 x 5
+  group variable      n   mean    sd
+  <chr> <chr>     <dbl>  <dbl> <dbl>
+1 BP    learningR    17 -0.029 0.066
+2 BT    learningR    20 -0.016 0.033
+3 N     learningR    18 -0.014 0.016
+4 TP    learningR    14 -0.016 0.019
+5 TT    learningR    18 -0.009 0.033
+# A tibble: 2 x 5
+  feedback variable      n   mean    sd
+  <chr>    <chr>     <dbl>  <dbl> <dbl>
+1 with     learningR    69 -0.017 0.041
+2 without  learningR    18 -0.014 0.016
+# A tibble: 3 x 5
+  frequency variable      n   mean    sd
+  <chr>     <chr>     <dbl>  <dbl> <dbl>
+1 Block     learningR    37 -0.022 0.05 
+2 None      learningR    18 -0.014 0.016
+3 Trial     learningR    32 -0.012 0.028
+# A tibble: 3 x 5
+  content  variable      n   mean    sd
+  <chr>    <chr>     <dbl>  <dbl> <dbl>
+1 None     learningR    18 -0.014 0.016
+2 positive learningR    31 -0.023 0.05 
+3 True     learningR    38 -0.013 0.033
+            Df  Sum Sq   Mean Sq F value Pr(>F)
+group        4 0.00378 0.0009461   0.661  0.621
+Residuals   82 0.11731 0.0014306               
+            Df  Sum Sq   Mean Sq F value Pr(>F)
+feedback     1 0.00017 0.0001663   0.117  0.733
+Residuals   85 0.12093 0.0014227               
+                  Df  Sum Sq   Mean Sq F value Pr(>F)
+frequency          2 0.00178 0.0008903   0.622  0.539
+content            1 0.00181 0.0018119   1.266  0.264
+frequency:content  1 0.00019 0.0001920   0.134  0.715
+Residuals         82 0.11731 0.0014306               

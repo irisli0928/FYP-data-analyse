@@ -81,8 +81,28 @@ dataANOVA %>%
   group_by(feedback) %>%
   get_summary_stats(learningR, type = "mean_sd")
 ggboxplot(dataANOVA, x = "feedback", y = "learningR")
+ggboxplot(dataANOVA, x = "content", y = "learningR")
+ggboxplot(dataANOVA, x = "frequency", y = "learningR")
 
 tukey.plot.aov <- aov(learningR ~ frequency:content, data = dataANOVA)
 tukey.plot.test<-TukeyHSD(tukey.plot.aov)
 par(mar=c(4.1, 12, 4.1, 2.1))
 plot(tukey.plot.test, las = 1, mar = 0.1)
+
+sink("linearANOVA.txt")
+print(dataANOVA %>%
+        group_by(group) %>%
+        get_summary_stats(learningR, type = "mean_sd"))
+print(dataANOVA %>%
+        group_by(feedback) %>%
+        get_summary_stats(learningR, type = "mean_sd"))
+print(dataANOVA %>%
+        group_by(frequency) %>%
+        get_summary_stats(learningR, type = "mean_sd"))
+print(dataANOVA %>%
+        group_by(content) %>%
+        get_summary_stats(learningR, type = "mean_sd"))
+print(summary(one.way))
+print(summary(one.way2))
+print(summary(interaction))
+sink()

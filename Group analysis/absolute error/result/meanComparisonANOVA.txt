@@ -1,0 +1,66 @@
+# A tibble: 10 x 6
+   group time   variable     n  mean    sd
+   <fct> <fct>  <chr>    <dbl> <dbl> <dbl>
+ 1 BP    after  error       15  11.4  2.71
+ 2 BP    before error       15  17.2  8.03
+ 3 BT    after  error       15  11.6  2.25
+ 4 BT    before error       15  16.8  7.75
+ 5 N     after  error       15  10.6  2.32
+ 6 N     before error       15  16.5  6.09
+ 7 TP    after  error       15  10.5  2.50
+ 8 TP    before error       15  16.0  7.47
+ 9 TT    after  error       15  12.4  3.48
+10 TT    before error       15  14.9  4.6 
+# A tibble: 6 x 6
+  frequency time   variable     n  mean    sd
+  <chr>     <fct>  <chr>    <dbl> <dbl> <dbl>
+1 Block     after  error       30  11.5  2.45
+2 Block     before error       30  17.0  7.76
+3 None      after  error       15  10.6  2.32
+4 None      before error       15  16.5  6.09
+5 Trial     after  error       30  11.4  3.13
+6 Trial     before error       30  15.4  6.12
+# A tibble: 6 x 6
+  content  time   variable     n  mean    sd
+  <chr>    <fct>  <chr>    <dbl> <dbl> <dbl>
+1 None     after  error       15  10.6  2.32
+2 None     before error       15  16.5  6.09
+3 positive after  error       30  10.9  2.60
+4 positive before error       30  16.6  7.64
+5 True     after  error       30  12.0  2.91
+6 True     before error       30  15.9  6.33
+# A tibble: 4 x 6
+  feedback time   variable     n  mean    sd
+  <chr>    <fct>  <chr>    <dbl> <dbl> <dbl>
+1 with     after  error       60  11.5  2.79
+2 with     before error       60  16.2  6.97
+3 without  after  error       15  10.6  2.32
+4 without  before error       15  16.5  6.09
+             Df Sum Sq Mean Sq F value   Pr(>F)    
+group         4     25     6.2   0.227    0.923    
+time          1    937   936.7  34.103 3.49e-08 ***
+group:time    4     59    14.7   0.534    0.711    
+Residuals   140   3846    27.5                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+                Df Sum Sq Mean Sq F value   Pr(>F)    
+frequency        2     22    10.8   0.401    0.670    
+time             1    937   936.7  34.749 2.55e-08 ***
+frequency:time   2     26    12.8   0.476    0.623    
+Residuals      144   3882    27.0                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+              Df Sum Sq Mean Sq F value   Pr(>F)    
+content        2      3     1.5   0.057    0.945    
+time           1    937   936.7  34.630 2.68e-08 ***
+content:time   2     31    15.4   0.571    0.566    
+Residuals    144   3895    27.0                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+               Df Sum Sq Mean Sq F value   Pr(>F)    
+feedback        1      2     2.3   0.086    0.770    
+time            1    937   936.7  34.898 2.34e-08 ***
+feedback:time   1      8     7.9   0.294    0.588    
+Residuals     146   3919    26.8                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
