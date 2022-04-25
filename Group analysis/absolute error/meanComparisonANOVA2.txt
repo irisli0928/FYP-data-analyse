@@ -36,31 +36,27 @@
 2 with     before error       69  16.3  9.51
 3 without  after  error       18  10.6  5.01
 4 without  before error       18  16.5 10.4 
-             Df Sum Sq Mean Sq F value   Pr(>F)    
-group         4     27     6.8   0.106    0.980    
-time          1   1076  1075.8  16.803 6.51e-05 ***
-group:time    4     70    17.4   0.272    0.896    
-Residuals   164  10500    64.0                     
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-                Df Sum Sq Mean Sq F value   Pr(>F)    
-frequency        2     24    11.9   0.190    0.827    
-time             1   1076  1075.8  17.150 5.46e-05 ***
-frequency:time   2     35    17.4   0.277    0.758    
-Residuals      168  10538    62.7                     
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-              Df Sum Sq Mean Sq F value   Pr(>F)    
-content        2      4     2.0   0.032    0.969    
-time           1   1076  1075.8  17.118 5.54e-05 ***
-content:time   2     35    17.3   0.276    0.759    
-Residuals    168  10558    62.8                     
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-               Df Sum Sq Mean Sq F value  Pr(>F)    
-feedback        1      3     3.5   0.056   0.813    
-time            1   1076  1075.8  17.281 5.1e-05 ***
-feedback:time   1     10    10.1   0.162   0.688    
-Residuals     170  10583    62.3                    
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+ANOVA Table (type III tests)
+
+      Effect DFn DFd      F        p p<.05   ges
+1      group   4  82  0.073 9.90e-01       0.003
+2       time   1  82 31.303 2.84e-07     * 0.093
+3 group:time   4  82  0.509 7.29e-01       0.007
+ANOVA Table (type III tests)
+
+          Effect DFn DFd      F        p p<.05   ges
+1      frequency   2  84  0.130 8.78e-01       0.002
+2           time   1  84 30.178 4.13e-07     * 0.088
+3 frequency:time   2  84  0.514 6.00e-01       0.003
+ANOVA Table (type III tests)
+
+        Effect DFn DFd      F        p p<.05      ges
+1      content   2  84  0.022 9.79e-01       0.000377
+2         time   1  84 31.275 2.73e-07     * 0.091000
+3 content:time   2  84  0.513 6.01e-01       0.003000
+ANOVA Table (type III tests)
+
+         Effect DFn DFd      F        p p<.05      ges
+1      feedback   1  85  0.038 8.45e-01       0.000328
+2          time   1  85 23.972 4.60e-06     * 0.071000
+3 feedback:time   1  85  0.299 5.86e-01       0.000953
