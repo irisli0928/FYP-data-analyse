@@ -43,14 +43,14 @@ r33 <- cbind(rep("No feedback", as.numeric(rowlength[3,1])), rep("None", as.nume
 start_end <- start_end[, -1]
 
 dataANOVA <- cbind.data.frame(rbind.data.frame(r11,r22,r33,r44,r55), start_end)
-colnames(dataANOVA) <- data.frame("group", "frequency", "content","feedback", "before", "after")
+colnames(dataANOVA) <- data.frame("group", "frequency", "content","feedback", "First", "Last")
 
 write.csv(dataANOVA, "ANOVAmean2.csv")
 dataANOVA <- read.csv("ANOVAmean2.csv", header = TRUE)
 
 # orgnize data
 dataANOVA <- dataANOVA %>%
-  gather(key = "time", value = "error", before, after) %>%
+  gather(key = "time", value = "error", First, Last) %>%
   convert_as_factor(group, time)
 dataANOVA %>%
   group_by(group, time) %>%
@@ -106,7 +106,7 @@ pwc2
 
 # box plot with p value
 pwc <- pwc %>% add_xy_position(x = "group")
-box.plot <- ggplot(data = dataANOVA, mapping=aes(group, error, colour=factor(time, levels=c("before","after")))) +
+box.plot <- ggplot(data = dataANOVA, mapping=aes(group, error, colour=factor(time, levels=c("First","Last")))) +
   geom_boxplot(size=0.7) +
   theme(legend.position = "top", panel.background = element_rect(fill = "white", colour = "black", size=1)) +
   scale_colour_manual(values=c("firebrick", "dodgerblue3")) +
@@ -128,13 +128,13 @@ ggplot(data = dataANOVA, mapping=aes(reorder(time, -error), error)) +
   geom_point(aes(colour=time), size = 1) + 
   facet_wrap(~ group) +
   theme(legend.position = "top", panel.background = element_rect(fill = "white", colour = "black", size=1)) +
-  scale_colour_manual(values=c("dodgerblue3", "firebrick")) +
+  scale_colour_manual(values=c("firebrick", "dodgerblue3")) +
   stat_pvalue_manual(pwc, tip.length = 0, hide.ns = TRUE) +
   labs(
     subtitle = get_test_label(mixed.aov, detailed = TRUE),
     caption = get_pwc_label(pwc)
   ) +
-  xlab("Groups") + ylab("Error in adjustment") + 
+  xlab("Time") + ylab("Error in adjustment") + 
   theme(axis.text=element_text(size=12),
         axis.title=element_text(size=13))
 
