@@ -44,6 +44,16 @@ dataANOVA %>%
   get_summary_stats(learningR, type = "mean_sd")
 ggboxplot(dataANOVA, x = "group", y = "learningR")
 
+ggplot(dataANOVA, aes(group, learningR)) +
+  geom_boxplot(size=0.7) +
+  theme(legend.position = "top", panel.background = element_rect(fill = "white", colour = "black", size=1)) +
+  xlab("Groups") + ylab("Learning rate") + 
+  theme(axis.text=element_text(size=12),
+        axis.title=element_text(size=13)) +
+  stat_compare_means(aes(group = group), method = "anova")
+
+
+
 dataANOVA %>%
   group_by(feedback) %>%
   get_summary_stats(learningR, type = "mean_sd")

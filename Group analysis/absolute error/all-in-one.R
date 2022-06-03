@@ -38,8 +38,8 @@ ggplot(datac, aes(x=block, y=block_average, colour=group)) +
   geom_errorbar(aes(ymin=block_average-se, ymax=block_average+se), width=.1, position=pd) +
   geom_line(position=pd) +
   geom_point(position=pd) +
-  ylab("block error") +
+  ylab("block error (in degrees)") +
   xlim(1,12) + ylim(7.5,20) +
-  scale_x_continuous(breaks= seq(1, 12, 2)) +
+  scale_x_continuous(breaks= seq(0, 12, 1)) +
   theme(panel.background = element_rect(fill="grey95", colour="white")) +
   scale_colour_manual(values=c("dodgerblue3", "goldenrod", "orchid3", "seagreen4", "firebrick"))

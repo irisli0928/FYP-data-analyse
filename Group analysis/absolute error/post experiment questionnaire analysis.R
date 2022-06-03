@@ -1,0 +1,15 @@
+setwd("F:/Tools/Rworkspace/FYP-data-analysis/Group analysis/absolute error")
+library("ggplot2")
+library("BayesFactor")
+library("XLConnect")
+library("ggpubr")
+library("tidyverse")
+library("broom")
+library("AICcmodavg")
+library("rstatix")
+library("MBESS")
+library("rstatix")
+
+data <- read.csv("perceived inaccuracy.csv", header = TRUE)
+
+kruskal.test(data$response ~ data$group)
